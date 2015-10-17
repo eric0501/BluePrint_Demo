@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  BluetoothView.h
 //  BluePrint_Demo
 //
 //  Created by Eric周 on 15/10/17.
@@ -7,10 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "BluetoothDeviceView.h"
 
-@interface ViewController : UIViewController
-
+@interface BluetoothView : UIView
 
 @end
-

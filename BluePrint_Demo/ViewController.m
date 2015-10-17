@@ -16,7 +16,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    self.title = @"WelCome";
+
+}
+
+- (IBAction)ButtonClick:(id)sender {
+    BluetoothDeviceView *deviceView = [[BluetoothDeviceView alloc]init];
+    //[self presentViewController:deviceView animated:YES completion:nil];
+    [self.navigationController pushViewController:deviceView animated:YES];
 }
 
 - (void)didReceiveMemoryWarning {

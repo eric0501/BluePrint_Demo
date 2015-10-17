@@ -15,6 +15,13 @@
 		07ECD5E71BD1E6E4000713D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07ECD5E51BD1E6E4000713D4 /* LaunchScreen.storyboard */; };
 		07ECD5F21BD1E6E4000713D4 /* BluePrint_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07ECD5F11BD1E6E4000713D4 /* BluePrint_DemoTests.m */; };
 		07ECD5FD1BD1E6E4000713D4 /* BluePrint_DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07ECD5FC1BD1E6E4000713D4 /* BluePrint_DemoUITests.m */; };
+		07ECD60B1BD1E729000713D4 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07ECD60A1BD1E729000713D4 /* CoreBluetooth.framework */; };
+		07ECD60E1BD1E879000713D4 /* BluetoothInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 07ECD60D1BD1E879000713D4 /* BluetoothInfo.m */; settings = {ASSET_TAGS = (); }; };
+		07ECD6141BD1E96D000713D4 /* BluetoothDeviceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 07ECD6131BD1E96D000713D4 /* BluetoothDeviceView.m */; settings = {ASSET_TAGS = (); }; };
+		07ECD6171BD1F6F1000713D4 /* BluetoothView.m in Sources */ = {isa = PBXBuildFile; fileRef = 07ECD6161BD1F6F1000713D4 /* BluetoothView.m */; settings = {ASSET_TAGS = (); }; };
+		07ECD61E1BD1FC5D000713D4 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 07ECD61A1BD1FC5D000713D4 /* SVIndefiniteAnimatedView.m */; settings = {ASSET_TAGS = (); }; };
+		07ECD61F1BD1FC5D000713D4 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 07ECD61B1BD1FC5D000713D4 /* SVProgressHUD.bundle */; settings = {ASSET_TAGS = (); }; };
+		07ECD6201BD1FC5D000713D4 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 07ECD61D1BD1FC5D000713D4 /* SVProgressHUD.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,18 @@
 		07ECD5F81BD1E6E4000713D4 /* BluePrint_DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BluePrint_DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		07ECD5FC1BD1E6E4000713D4 /* BluePrint_DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BluePrint_DemoUITests.m; sourceTree = "<group>"; };
 		07ECD5FE1BD1E6E4000713D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07ECD60A1BD1E729000713D4 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		07ECD60C1BD1E879000713D4 /* BluetoothInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BluetoothInfo.h; sourceTree = "<group>"; };
+		07ECD60D1BD1E879000713D4 /* BluetoothInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BluetoothInfo.m; sourceTree = "<group>"; };
+		07ECD6121BD1E96D000713D4 /* BluetoothDeviceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BluetoothDeviceView.h; path = ../BluetoothDeviceView.h; sourceTree = "<group>"; };
+		07ECD6131BD1E96D000713D4 /* BluetoothDeviceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BluetoothDeviceView.m; path = ../BluetoothDeviceView.m; sourceTree = "<group>"; };
+		07ECD6151BD1F6F1000713D4 /* BluetoothView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BluetoothView.h; sourceTree = "<group>"; };
+		07ECD6161BD1F6F1000713D4 /* BluetoothView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BluetoothView.m; sourceTree = "<group>"; };
+		07ECD6191BD1FC5D000713D4 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		07ECD61A1BD1FC5D000713D4 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		07ECD61B1BD1FC5D000713D4 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		07ECD61C1BD1FC5D000713D4 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		07ECD61D1BD1FC5D000713D4 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07ECD60B1BD1E729000713D4 /* CoreBluetooth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +101,7 @@
 		07ECD5CB1BD1E6E4000713D4 = {
 			isa = PBXGroup;
 			children = (
+				07ECD60A1BD1E729000713D4 /* CoreBluetooth.framework */,
 				07ECD5D61BD1E6E4000713D4 /* BluePrint_Demo */,
 				07ECD5F01BD1E6E4000713D4 /* BluePrint_DemoTests */,
 				07ECD5FB1BD1E6E4000713D4 /* BluePrint_DemoUITests */,
@@ -101,10 +122,17 @@
 		07ECD5D61BD1E6E4000713D4 /* BluePrint_Demo */ = {
 			isa = PBXGroup;
 			children = (
+				07ECD6181BD1FC5D000713D4 /* SVProgressHUD */,
+				07ECD60C1BD1E879000713D4 /* BluetoothInfo.h */,
+				07ECD60D1BD1E879000713D4 /* BluetoothInfo.m */,
 				07ECD5DA1BD1E6E4000713D4 /* AppDelegate.h */,
 				07ECD5DB1BD1E6E4000713D4 /* AppDelegate.m */,
 				07ECD5DD1BD1E6E4000713D4 /* ViewController.h */,
 				07ECD5DE1BD1E6E4000713D4 /* ViewController.m */,
+				07ECD6121BD1E96D000713D4 /* BluetoothDeviceView.h */,
+				07ECD6131BD1E96D000713D4 /* BluetoothDeviceView.m */,
+				07ECD6151BD1F6F1000713D4 /* BluetoothView.h */,
+				07ECD6161BD1F6F1000713D4 /* BluetoothView.m */,
 				07ECD5E01BD1E6E4000713D4 /* Main.storyboard */,
 				07ECD5E31BD1E6E4000713D4 /* Assets.xcassets */,
 				07ECD5E51BD1E6E4000713D4 /* LaunchScreen.storyboard */,
@@ -138,6 +166,18 @@
 				07ECD5FE1BD1E6E4000713D4 /* Info.plist */,
 			);
 			path = BluePrint_DemoUITests;
+			sourceTree = "<group>";
+		};
+		07ECD6181BD1FC5D000713D4 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				07ECD6191BD1FC5D000713D4 /* SVIndefiniteAnimatedView.h */,
+				07ECD61A1BD1FC5D000713D4 /* SVIndefiniteAnimatedView.m */,
+				07ECD61B1BD1FC5D000713D4 /* SVProgressHUD.bundle */,
+				07ECD61C1BD1FC5D000713D4 /* SVProgressHUD.h */,
+				07ECD61D1BD1FC5D000713D4 /* SVProgressHUD.m */,
+			);
+			path = SVProgressHUD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,6 +286,7 @@
 				07ECD5E71BD1E6E4000713D4 /* LaunchScreen.storyboard in Resources */,
 				07ECD5E41BD1E6E4000713D4 /* Assets.xcassets in Resources */,
 				07ECD5E21BD1E6E4000713D4 /* Main.storyboard in Resources */,
+				07ECD61F1BD1FC5D000713D4 /* SVProgressHUD.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,8 +311,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07ECD6141BD1E96D000713D4 /* BluetoothDeviceView.m in Sources */,
+				07ECD6201BD1FC5D000713D4 /* SVProgressHUD.m in Sources */,
+				07ECD6171BD1F6F1000713D4 /* BluetoothView.m in Sources */,
+				07ECD60E1BD1E879000713D4 /* BluetoothInfo.m in Sources */,
 				07ECD5DF1BD1E6E4000713D4 /* ViewController.m in Sources */,
 				07ECD5DC1BD1E6E4000713D4 /* AppDelegate.m in Sources */,
+				07ECD61E1BD1FC5D000713D4 /* SVIndefiniteAnimatedView.m in Sources */,
 				07ECD5D91BD1E6E4000713D4 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +458,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BluePrint_Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "zy.BluePrint-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -423,6 +470,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BluePrint_Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "zy.BluePrint-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -496,6 +544,7 @@
 				07ECD6031BD1E6E4000713D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		07ECD6041BD1E6E4000713D4 /* Build configuration list for PBXNativeTarget "BluePrint_DemoTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +553,7 @@
 				07ECD6061BD1E6E4000713D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		07ECD6071BD1E6E4000713D4 /* Build configuration list for PBXNativeTarget "BluePrint_DemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +562,7 @@
 				07ECD6091BD1E6E4000713D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
