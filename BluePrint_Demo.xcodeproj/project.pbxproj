@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07ECD5D91BD1E6E4000713D4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07ECD5D81BD1E6E4000713D4 /* main.m */; };
+		07ECD5DC1BD1E6E4000713D4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07ECD5DB1BD1E6E4000713D4 /* AppDelegate.m */; };
+		07ECD5DF1BD1E6E4000713D4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07ECD5DE1BD1E6E4000713D4 /* ViewController.m */; };
+		07ECD5E21BD1E6E4000713D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07ECD5E01BD1E6E4000713D4 /* Main.storyboard */; };
+		07ECD5E41BD1E6E4000713D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07ECD5E31BD1E6E4000713D4 /* Assets.xcassets */; };
+		07ECD5E71BD1E6E4000713D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07ECD5E51BD1E6E4000713D4 /* LaunchScreen.storyboard */; };
+		07ECD5F21BD1E6E4000713D4 /* BluePrint_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07ECD5F11BD1E6E4000713D4 /* BluePrint_DemoTests.m */; };
+		07ECD5FD1BD1E6E4000713D4 /* BluePrint_DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07ECD5FC1BD1E6E4000713D4 /* BluePrint_DemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07ECD5EE1BD1E6E4000713D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07ECD5CC1BD1E6E4000713D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07ECD5D31BD1E6E4000713D4;
+			remoteInfo = BluePrint_Demo;
+		};
+		07ECD5F91BD1E6E4000713D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07ECD5CC1BD1E6E4000713D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07ECD5D31BD1E6E4000713D4;
+			remoteInfo = BluePrint_Demo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07ECD5D41BD1E6E4000713D4 /* BluePrint_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BluePrint_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07ECD5D81BD1E6E4000713D4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		07ECD5DA1BD1E6E4000713D4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		07ECD5DB1BD1E6E4000713D4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		07ECD5DD1BD1E6E4000713D4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		07ECD5DE1BD1E6E4000713D4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		07ECD5E11BD1E6E4000713D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		07ECD5E31BD1E6E4000713D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		07ECD5E61BD1E6E4000713D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		07ECD5E81BD1E6E4000713D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07ECD5ED1BD1E6E4000713D4 /* BluePrint_DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BluePrint_DemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07ECD5F11BD1E6E4000713D4 /* BluePrint_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BluePrint_DemoTests.m; sourceTree = "<group>"; };
+		07ECD5F31BD1E6E4000713D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07ECD5F81BD1E6E4000713D4 /* BluePrint_DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BluePrint_DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07ECD5FC1BD1E6E4000713D4 /* BluePrint_DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BluePrint_DemoUITests.m; sourceTree = "<group>"; };
+		07ECD5FE1BD1E6E4000713D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07ECD5D11BD1E6E4000713D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07ECD5EA1BD1E6E4000713D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07ECD5F51BD1E6E4000713D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07ECD5CB1BD1E6E4000713D4 = {
+			isa = PBXGroup;
+			children = (
+				07ECD5D61BD1E6E4000713D4 /* BluePrint_Demo */,
+				07ECD5F01BD1E6E4000713D4 /* BluePrint_DemoTests */,
+				07ECD5FB1BD1E6E4000713D4 /* BluePrint_DemoUITests */,
+				07ECD5D51BD1E6E4000713D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07ECD5D51BD1E6E4000713D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07ECD5D41BD1E6E4000713D4 /* BluePrint_Demo.app */,
+				07ECD5ED1BD1E6E4000713D4 /* BluePrint_DemoTests.xctest */,
+				07ECD5F81BD1E6E4000713D4 /* BluePrint_DemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07ECD5D61BD1E6E4000713D4 /* BluePrint_Demo */ = {
+			isa = PBXGroup;
+			children = (
+				07ECD5DA1BD1E6E4000713D4 /* AppDelegate.h */,
+				07ECD5DB1BD1E6E4000713D4 /* AppDelegate.m */,
+				07ECD5DD1BD1E6E4000713D4 /* ViewController.h */,
+				07ECD5DE1BD1E6E4000713D4 /* ViewController.m */,
+				07ECD5E01BD1E6E4000713D4 /* Main.storyboard */,
+				07ECD5E31BD1E6E4000713D4 /* Assets.xcassets */,
+				07ECD5E51BD1E6E4000713D4 /* LaunchScreen.storyboard */,
+				07ECD5E81BD1E6E4000713D4 /* Info.plist */,
+				07ECD5D71BD1E6E4000713D4 /* Supporting Files */,
+			);
+			path = BluePrint_Demo;
+			sourceTree = "<group>";
+		};
+		07ECD5D71BD1E6E4000713D4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				07ECD5D81BD1E6E4000713D4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		07ECD5F01BD1E6E4000713D4 /* BluePrint_DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				07ECD5F11BD1E6E4000713D4 /* BluePrint_DemoTests.m */,
+				07ECD5F31BD1E6E4000713D4 /* Info.plist */,
+			);
+			path = BluePrint_DemoTests;
+			sourceTree = "<group>";
+		};
+		07ECD5FB1BD1E6E4000713D4 /* BluePrint_DemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				07ECD5FC1BD1E6E4000713D4 /* BluePrint_DemoUITests.m */,
+				07ECD5FE1BD1E6E4000713D4 /* Info.plist */,
+			);
+			path = BluePrint_DemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07ECD5D31BD1E6E4000713D4 /* BluePrint_Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07ECD6011BD1E6E4000713D4 /* Build configuration list for PBXNativeTarget "BluePrint_Demo" */;
+			buildPhases = (
+				07ECD5D01BD1E6E4000713D4 /* Sources */,
+				07ECD5D11BD1E6E4000713D4 /* Frameworks */,
+				07ECD5D21BD1E6E4000713D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BluePrint_Demo;
+			productName = BluePrint_Demo;
+			productReference = 07ECD5D41BD1E6E4000713D4 /* BluePrint_Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		07ECD5EC1BD1E6E4000713D4 /* BluePrint_DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07ECD6041BD1E6E4000713D4 /* Build configuration list for PBXNativeTarget "BluePrint_DemoTests" */;
+			buildPhases = (
+				07ECD5E91BD1E6E4000713D4 /* Sources */,
+				07ECD5EA1BD1E6E4000713D4 /* Frameworks */,
+				07ECD5EB1BD1E6E4000713D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07ECD5EF1BD1E6E4000713D4 /* PBXTargetDependency */,
+			);
+			name = BluePrint_DemoTests;
+			productName = BluePrint_DemoTests;
+			productReference = 07ECD5ED1BD1E6E4000713D4 /* BluePrint_DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		07ECD5F71BD1E6E4000713D4 /* BluePrint_DemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07ECD6071BD1E6E4000713D4 /* Build configuration list for PBXNativeTarget "BluePrint_DemoUITests" */;
+			buildPhases = (
+				07ECD5F41BD1E6E4000713D4 /* Sources */,
+				07ECD5F51BD1E6E4000713D4 /* Frameworks */,
+				07ECD5F61BD1E6E4000713D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07ECD5FA1BD1E6E4000713D4 /* PBXTargetDependency */,
+			);
+			name = BluePrint_DemoUITests;
+			productName = BluePrint_DemoUITests;
+			productReference = 07ECD5F81BD1E6E4000713D4 /* BluePrint_DemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07ECD5CC1BD1E6E4000713D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Eric周";
+				TargetAttributes = {
+					07ECD5D31BD1E6E4000713D4 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					07ECD5EC1BD1E6E4000713D4 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 07ECD5D31BD1E6E4000713D4;
+					};
+					07ECD5F71BD1E6E4000713D4 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 07ECD5D31BD1E6E4000713D4;
+					};
+				};
+			};
+			buildConfigurationList = 07ECD5CF1BD1E6E4000713D4 /* Build configuration list for PBXProject "BluePrint_Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 07ECD5CB1BD1E6E4000713D4;
+			productRefGroup = 07ECD5D51BD1E6E4000713D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07ECD5D31BD1E6E4000713D4 /* BluePrint_Demo */,
+				07ECD5EC1BD1E6E4000713D4 /* BluePrint_DemoTests */,
+				07ECD5F71BD1E6E4000713D4 /* BluePrint_DemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07ECD5D21BD1E6E4000713D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07ECD5E71BD1E6E4000713D4 /* LaunchScreen.storyboard in Resources */,
+				07ECD5E41BD1E6E4000713D4 /* Assets.xcassets in Resources */,
+				07ECD5E21BD1E6E4000713D4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07ECD5EB1BD1E6E4000713D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07ECD5F61BD1E6E4000713D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07ECD5D01BD1E6E4000713D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07ECD5DF1BD1E6E4000713D4 /* ViewController.m in Sources */,
+				07ECD5DC1BD1E6E4000713D4 /* AppDelegate.m in Sources */,
+				07ECD5D91BD1E6E4000713D4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07ECD5E91BD1E6E4000713D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07ECD5F21BD1E6E4000713D4 /* BluePrint_DemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07ECD5F41BD1E6E4000713D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07ECD5FD1BD1E6E4000713D4 /* BluePrint_DemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07ECD5EF1BD1E6E4000713D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07ECD5D31BD1E6E4000713D4 /* BluePrint_Demo */;
+			targetProxy = 07ECD5EE1BD1E6E4000713D4 /* PBXContainerItemProxy */;
+		};
+		07ECD5FA1BD1E6E4000713D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07ECD5D31BD1E6E4000713D4 /* BluePrint_Demo */;
+			targetProxy = 07ECD5F91BD1E6E4000713D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		07ECD5E01BD1E6E4000713D4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07ECD5E11BD1E6E4000713D4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		07ECD5E51BD1E6E4000713D4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07ECD5E61BD1E6E4000713D4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07ECD5FF1BD1E6E4000713D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		07ECD6001BD1E6E4000713D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07ECD6021BD1E6E4000713D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BluePrint_Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zy.BluePrint-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		07ECD6031BD1E6E4000713D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BluePrint_Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zy.BluePrint-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		07ECD6051BD1E6E4000713D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BluePrint_DemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zy.BluePrint-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BluePrint_Demo.app/BluePrint_Demo";
+			};
+			name = Debug;
+		};
+		07ECD6061BD1E6E4000713D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BluePrint_DemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zy.BluePrint-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BluePrint_Demo.app/BluePrint_Demo";
+			};
+			name = Release;
+		};
+		07ECD6081BD1E6E4000713D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BluePrint_DemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zy.BluePrint-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BluePrint_Demo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		07ECD6091BD1E6E4000713D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BluePrint_DemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zy.BluePrint-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BluePrint_Demo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07ECD5CF1BD1E6E4000713D4 /* Build configuration list for PBXProject "BluePrint_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07ECD5FF1BD1E6E4000713D4 /* Debug */,
+				07ECD6001BD1E6E4000713D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07ECD6011BD1E6E4000713D4 /* Build configuration list for PBXNativeTarget "BluePrint_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07ECD6021BD1E6E4000713D4 /* Debug */,
+				07ECD6031BD1E6E4000713D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		07ECD6041BD1E6E4000713D4 /* Build configuration list for PBXNativeTarget "BluePrint_DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07ECD6051BD1E6E4000713D4 /* Debug */,
+				07ECD6061BD1E6E4000713D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		07ECD6071BD1E6E4000713D4 /* Build configuration list for PBXNativeTarget "BluePrint_DemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07ECD6081BD1E6E4000713D4 /* Debug */,
+				07ECD6091BD1E6E4000713D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07ECD5CC1BD1E6E4000713D4 /* Project object */;
+}
